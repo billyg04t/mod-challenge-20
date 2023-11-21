@@ -1,0 +1,33 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  nav li:hover {
+    color: #ffcc00;
+  }
+  
+  nav li.active {
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
