@@ -1,0 +1,22 @@
+.resume {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
