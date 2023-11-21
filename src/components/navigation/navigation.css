@@ -1,0 +1,25 @@
+nav {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    cursor: pointer;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  li:hover {
+    color: #ffcc00;
+  }
+  
+  li.active {
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
